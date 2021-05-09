@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /* Global Styles */
 
@@ -23,7 +23,7 @@
 }
 
 body {
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 
 	font-size: 1rem;
 
@@ -435,10 +435,10 @@ input {
 	color: #888;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="date"],
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='date'],
 select,
 textarea {
 	display: block;
@@ -452,7 +452,7 @@ textarea {
 	border: 1px solid #ccc;
 }
 
-input[type="submit"],
+input[type='submit'],
 button {
 	font: inherit;
 }
@@ -522,6 +522,16 @@ table th {
 		grid-template-columns: 1fr;
 	}
 
+	.all-center {
+		border-right: none;
+
+		border-bottom: rgba(102, 102, 102, 0.3) 1px solid;
+	}
+
+	.details {
+		text-align: center;
+	}
+
 	/* Text Styles */
 
 	.x-large {
@@ -545,6 +555,8 @@ table th {
 	}
 	.navbar ul {
 		text-align: center;
+
+		padding-top: 1rem;
 
 		justify-content: center;
 	}

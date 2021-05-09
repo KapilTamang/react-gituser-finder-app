@@ -60,11 +60,11 @@ const User = ({ match }) => {
 						)}
 					</p>
 				</div>
-				<div className="p-1">
+				<div className="details p-1">
 					{bio && (
 						<Fragment>
 							<h1>Bio</h1>
-							<p>{bio}</p>
+							<p>- {bio}</p>
 						</Fragment>
 					)}
 					<a href={html_url} className="btn btn-sm my-1">
