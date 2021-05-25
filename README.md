@@ -1,5 +1,5 @@
 # GitUser Finder App
-GitUser Finder App is a simple react application for searching github users, browing user's general info and public Repos.
+GitUser Finder App is a simple react application for searching github users, browsing user's general info and public Repos.
 - Usage of React Hooks and ContextAPI.
 - Usage of Github Api.
 
